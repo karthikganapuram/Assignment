@@ -1,0 +1,6 @@
+- name: Launch Conatiner
+  docker_container:
+       name: "webapp"
+       image: "karthik123/node-web-app:1.0"
+       ports:
+          - "41960:8080"
